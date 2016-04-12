@@ -1,0 +1,2 @@
+Dygraph.GVizChart=function(a){this.container=a};Dygraph.GVizChart.prototype.draw=function(a,b){this.container.innerHTML="";"undefined"!=typeof this.date_graph&&this.date_graph.destroy();this.date_graph=new Dygraph(this.container,a,b)};Dygraph.GVizChart.prototype.setSelection=function(a){var b=!1;a.length&&(b=a[0].row);this.date_graph.setSelection(b)};
+Dygraph.GVizChart.prototype.getSelection=function(){var a=[],b=this.date_graph.getSelection();if(0>b)return a;col=1;for(var c in this.date_graph.layout_.datasets)a.push({row:b,column:col}),col++;return a};

@@ -1,0 +1,157 @@
+.show-left {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	float: left;
+	width: 300px;
+	font-size: 15px;
+	font-weight: 400;
+	text-shadow: 0 1px 0 #ccc;
+	background-color: #ffffff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.show-left .info-content {
+	margin-left: 10px;
+}
+
+.show-left .info-content p:first-child {
+	padding-top: 18px;
+}
+
+.show-left .info-content p:last-child {
+	padding-bottom: 20px;
+}
+
+.show-left .info-content .info-item {
+	padding: 10px;
+}
+
+.show-right {
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.no-margin {
+	margin-bottom: 0px !important;
+}
+
+.recent-posts li {
+	background: none repeat scroll 0 0 #ffffff;
+	border-bottom: none;
+	list-style: outside none none;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.recent-posts li:first-child {
+	margin-top: 8px;
+}
+
+.recent-posts li:last-child {
+	margin-bottom: 0;
+}
+
+.test-show {
+	float: left;
+	background-size: contain;
+	height: 2px;
+	width: 100%;
+	padding: 1px 0;
+}
+
+.info-head-type {
+	font-size: 18px;
+	background: none repeat scroll 0 0 #ffffff;
+	text-align: right;
+	padding: 3px;
+}
+
+.info-head {
+	background-color: #ffffff;
+	border-top: 2px solid #FEA800;
+	border-bottom: 2px solid #F2F2F2;
+	height: 32px;
+	line-height: 32px;
+	padding: 2px 2px 2px 17px;
+}
+
+.info-head .info-type {
+	padding: 5px 2px;
+	font-size: 15px;
+	text-shadow: 0 1px 0 #ccc;
+}
+
+.info-head.info-warning {
+	border-top: 2px solid #E7E2A5;
+}
+
+.info-head.info-danger {
+	border-top: 2px solid #fad2c9;
+}
+
+.info-head.info-info {
+	border-top: 2px solid #9DE1E4;
+}
+
+.info-head.info-success {
+	border-top: 2px solid #8CE4A4;
+}
+
+.cursor-default {
+	cursor: default;
+}
+
+.cursor-point {
+	cursor: pointer;
+}
+
+.cursor-wait {
+	cursor: wait;
+}
+
+.info-head-type .badge {
+	background-color: #fff;
+	color: #000;
+	display: inline-block;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	padding: 2px 4px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.info-head-type .badge:hover {
+	background-color: #dff0d8;
+	color: #666;
+}
+
+.info-head-type .badge.badge-success {
+	background-color: #468847;
+	color: #fff;
+}
+
+.snapshot {
+	margin-left: 12px;
+	margin-right: 10px;
+}
+
+.snapshot h4 {
+	color: #333;
+	padding-bottom: 5px;
+}
+
+.snapshot .label-info {
+	margin: 3px 6px;
+}
+
+.viewall .badge {
+	margin: 5px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+li.viewall:hover {
+	background-color: #FFFEEE;
+}
